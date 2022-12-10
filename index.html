@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-weight: bold;
+        }
+        form{
+            margin: 20px;
+        }
+        button{
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="" >
+        <label for="name">Họ và tên:</label><br>
+        <input type="text" name="name" id=""><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id=""><br><br>
+        <label for="phone">Số điện thoại:</label><br>
+        <input type="tel" name="phone" id="" pattern="[0-9]{10}" placeholder="0123456789"><br><br>
+        <label for="gender">Giới tính:</label><br>
+        <input type="radio" name="gender" value="male" id="">
+        <label for="gender">Nam</label>
+        <input type="radio" name="gender" value="female" id="">
+        <label for="gender">Nữ</label><br><br>
+        <button type="submit">Đăng ký</button>
+    </form>
+</body>
+</html>
